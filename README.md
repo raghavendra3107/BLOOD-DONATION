@@ -1,14 +1,22 @@
-# Blood-Bank-Mern-Stack-Project
-complete mern stack blood bank project source code please check commits
+# Blood Donation Management System
 
-## project playlist 🎞
-https://youtube.com/playlist?list=PLuHGmgpyHfRzs3VmqXkguFuNknQFbT0db
+A MERN Stack Web Application for managing blood donors, hospitals, and blood inventory.
 
-# Thank you for watching TechinfoYT youtube channel
-😎 Please Like Share and Subscribe ! 🙏
+## Features
+- User Authentication (JWT)
+- Blood Inventory Management
+- Donor & Hospital Management
+- Admin Dashboard
+- Analytics (Blood Group Data)
 
-# Having Any Isuse Or Query DM On Instagram 🤷‍♀️
-https://www.instagram.com/technical_update/
+## Tech Stack
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+
+## Developed By
+Raghavendra 
 
 
 
