@@ -17,7 +17,7 @@ const Modal = () => {
       }
       const { data } = await API.post("/inventory/create-inventory", {
         email,
-        organisation: user?._id,
+        userId: user?._id,
         inventoryType,
         bloodGroup,
         quantity,
@@ -27,7 +27,7 @@ const Modal = () => {
         window.location.reload();
       }
     } catch (error) {
-      alert(error.response.data.message);
+      alert(error?.response?.data?.message || "Something went wrong");
       console.log(error);
       window.location.reload();
     }
